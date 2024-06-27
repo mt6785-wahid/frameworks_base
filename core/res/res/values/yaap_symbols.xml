@@ -88,4 +88,9 @@
     <!-- Slider vibrations fallbacks - set either to non positive to disable
          maximum duration in ms the slider vibrations scale to from 0 -->
     <java-symbol type="integer" name="config_sliderVibFallbackDuration" />
+
+    <!-- Notification light mappings -->
+    <java-symbol type="array" name="notification_light_package_mapping" />
+    <!-- On-device lights (LED) capabilities -->
+    <java-symbol type="integer" name="config_deviceLightCapabilities" />
 </resources>
